@@ -6,7 +6,7 @@ type Props = {};
 
 function About({}: Props) {
   return (
-    <div className=' flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
+    <div className=' flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center  '>
       <h3 className='absolute top-24 uppercase tracking-[15px]  text-gray-500 text-xl '>
         About us
       </h3>
@@ -37,10 +37,9 @@ function About({}: Props) {
         </h4>
         <p className='text-base md:text-2xl lg:text-3xl font-thin'>
           Discover the world of stamps at{' '}
-          <span className='text-red-500 '> DelhiStamps</span> in Tri Nagar,
-          Delhi. From rare finds to contemporary releases, we cater to
-          collectors of all levels. Visit us at and explore the art of philately
-          today!
+          <span className='text-red-500 '> DelhiStamps</span> in Rohini, Delhi.
+          From rare finds to contemporary releases, we cater to collectors of
+          all levels. Visit us at and explore the art of philately today!
         </p>
       </div>
     </div>

@@ -8,7 +8,7 @@ type Props = {};
 
 export default function Header({}: Props) {
   return (
-    <header className='sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
+    <header className='sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center '>
       <motion.div
         initial={{
           x: -500,
@@ -23,21 +23,22 @@ export default function Header({}: Props) {
         transition={{
           duration: 0.5,
         }}
-        className='flex flex-row items-center '>
+        className='flex flex-row items-center '
+      >
         {/* social icons */}
         <SocialIcon
           url='https://www.instagram.com/youngun.in/'
-          fgColor='grey'
+          fgColor='#2F3C7E'
           bgColor='transparent'
         />
         <SocialIcon
           url='https://www.facebook.com/'
-          fgColor='grey'
+          fgColor='#2F3C7E'
           bgColor='transparent'
         />
         <SocialIcon
           url='https://www.twitter.com/'
-          fgColor='grey'
+          fgColor='#2F3C7E'
           bgColor='transparent'
         />
       </motion.div>
@@ -56,16 +57,17 @@ export default function Header({}: Props) {
         transition={{
           duration: 0.5,
         }}
-        className='flex flex-row items-center text-gray-300 cursor-pointer'>
-        <SocialIcon
+        className='flex flex-row items-center text-[#2F3C7E] cursor-pointer'
+      >
+        {/* <SocialIcon
           className='cursor-pointer'
           network='email'
-          fgColor='grey'
+          fgColor='#2F3C7E'
           bgColor='transparent'
         />
-        <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>
+        <p className='uppercase hidden md:inline-flex text-sm text-[#2F3C7E]'>
           Get in touch with us
-        </p>
+        </p> */}
       </motion.div>
     </header>
   );

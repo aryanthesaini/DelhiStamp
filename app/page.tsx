@@ -25,12 +25,12 @@ export default function Home() {
       <section id='slider' className='snap-start'>
         <Numbers />
       </section>
-      <section id='team' className='snap-center'>
+      {/* <section id='team' className='snap-center'>
         <Team />
       </section>
       <section id='contactMe' className='snap-start'>
         <ContactMe />
-      </section>
+      </section> */}
     </div>
   );
 }
